@@ -1,27 +1,27 @@
 
-    :root {
+:root {
       --primary-color: #007BFF;
       --bg-color: #ffffff;
       --text-color: #333;
       --header-height: 320px;
     }
 
-    * {
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       scroll-behavior: smooth;
     }
 
-    body {
+body {
       font-family: 'Segoe UI', sans-serif;
       background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    /* Header with background image */
-    header {
+  
+header {
       background-image: url('gene.jpg');
       background-size: cover;
       background-position: center;
@@ -33,7 +33,7 @@
       text-align: center;
     }
 
-    .header-overlay {
+.header-overlay {
       background-color: rgba(0, 0, 50, 0.6);
       color: white;
       width: 100%;
@@ -45,24 +45,24 @@
       backdrop-filter: blur(2px);
     }
 
-    .header-overlay h1 {
+.header-overlay h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
 
-    .header-overlay p {
+.header-overlay p {
       font-size: 1.2rem;
     }
 
-    /* Navigation */
-    nav {
+    
+nav {
       background-color: var(--primary-color);
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
 
-    nav a {
+nav a {
       color: white;
       padding: 1rem;
       text-decoration: none;
@@ -70,30 +70,30 @@
       transition: background 0.3s;
     }
 
-    nav a:hover {
+nav a:hover {
       background-color: #0056b3;
     }
 
-    /* Main container */
-    .container {
+    
+.container {
       max-width: 1000px;
       margin: auto;
       padding: 2rem;
     }
 
-    section {
+section {
       margin-bottom: 3rem;
       animation: fadeInUp 0.8s ease-in-out both;
     }
 
-    h2 {
+h2 {
       color: var(--primary-color);
       border-left: 4px solid var(--primary-color);
       padding-left: 1rem;
       margin-bottom: 1rem;
     }
 
-    .resume-btn {
+.resume-btn {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.6rem 1.2rem;
@@ -104,26 +104,26 @@
       transition: background-color 0.3s;
     }
 
-    .resume-btn:hover {
+.resume-btn:hover {
       background-color: #0056b3;
     }
 
-    .languages-list,
-    .interests-list {
+.languages-list,
+.interests-list {
       list-style-type: disc;
       padding-left: 2rem;
     }
 
-    /* Contact form */
-    form {
+    
+form {
       background-color: #f1f8ff;
       padding: 1.5rem;
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 123, 255, 0.1);
     }
 
-    form input,
-    form textarea {
+form input,
+form textarea {
       width: 100%;
       padding: 0.8rem;
       margin-bottom: 1rem;
@@ -132,7 +132,7 @@
       font-size: 1rem;
     }
 
-    form button {
+form button {
       background-color: #28a745;
       color: white;
       padding: 0.8rem 1.5rem;
@@ -143,19 +143,19 @@
       transition: background-color 0.3s;
     }
 
-    form button:hover {
+form button:hover {
       background-color: #218838;
     }
 
-    footer {
+footer {
       text-align: center;
       background-color: var(--primary-color);
       color: white;
       padding: 1rem;
     }
 
-    /* Fade-in animation */
-    @keyframes fadeInUp {
+    
+@keyframes fadeInUp {
       from {
         opacity: 0;
         transform: translateY(20px);
@@ -166,8 +166,8 @@
       }
     }
 
-    /* Responsive design */
-    @media (max-width: 768px) {
+    
+@media (max-width: 768px) {
       .header-overlay h1 {
         font-size: 1.8rem;
       }
